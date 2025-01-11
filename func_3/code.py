@@ -9,6 +9,3 @@ def check_index(input_line="one two one tho three"):
             count_lst[idx] = str(words_dict[word])
             words_dict[word] = idx
     return ', '.join(count_lst)
-
-
-print(check_index())
